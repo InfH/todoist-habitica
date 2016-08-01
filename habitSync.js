@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var habitapi = require('habitrpg-api');
+var habitapi = require('habitica-api');
 var request = require('superagent');
 var async = require('async');
 var fs = require('fs');
