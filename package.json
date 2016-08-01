@@ -1,9 +1,9 @@
 {
-  "name": "todoist-habitrpg",
-  "version": "0.3.5",
+  "name": "todoist-habitica",
+  "version": "0.0.1",
   "description": "One way sync from Todoist -> HabitRPG.",
   "main": "index.js",
-  "homepage": "https://github.com/Kusold/todoist-habitrpg",
+  "homepage": "https://github.com/InfH/todoist-habitica",
   "directories": {
     "test": "test"
   },
@@ -11,24 +11,22 @@
     "test": "mocha"
   },
   "bugs": {
-    "url": "https://github.com/Kusold/todoist-habitrpg/issues",
-    "email": "hello@mikekusold.com"
+    "url": "https://github.com/InfH/todoist-habitica/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kusold/todoist-habitrpg.git"
+    "url": "https://github.com/InfH/todoist-habitica.git"
   },
   "keywords": [
     "todoist",
     "habitrpg",
     "todo",
     "habit",
-    "sync"
+    "sync",
+    "habitica"
   ],
   "author": {
-    "name": "Mike Kusold",
-    "email": "hello@mikekusold.com",
-    "url": "http://mikekusold.com"
+    "name": "Mike Kusold, forked and updated by Diya Das"
   },
   "contributors": [
     {
@@ -37,7 +35,7 @@
     }
   ],
   "bin": {
-    "todoist-habitrpg": "./main.js"
+    "todoist-habitica": "./main.js"
   },
   "engines": {
     "node": ">=0.10"
@@ -49,7 +47,7 @@
   ],
   "license": "GPL v3",
   "dependencies": {
-    "habitrpg-api": "~0.1.0",
+    "habitica-api": "~0.1.0",
     "commander": "~2.2.0",
     "superagent": "~0.18.0",
     "async": "~0.9.0",
